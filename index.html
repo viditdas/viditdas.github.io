@@ -1,14 +1,78 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="tiktok-developers-site-verification" content="Y4ntORQbBr06M8GE8G44nyy1kqN2iCRj" />
-  <title>My TikTok Verified Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The New You</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <h1>My Google Drive - TikTok Integration</h1>
-  <p>Click below to access:</p>
-  <a href="https://drive.google.com/drive/folders/1rybTYg_4ulzLh6t8W3vHYldWEdS_MCK0?usp=sharing" target="_blank">Open Google Drive File</a>
+
+  <div class="background-shapes">
+    <div class="shape shape1"></div>
+    <div class="shape shape2"></div>
+    <div class="shape shape3"></div>
+  </div>
+
+  <header id="navbar" class="navbar">
+    <div class="container">
+      <h1>The New You</h1>
+      <nav>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero fade-in">
+    <div class="container">
+      <h2><span id="typed-text"></span><span class="cursor">|</span></h2>
+      <p class="hero-sub">Motivation | Mindset | Growth</p>
+      <a href="#features" class="btn pulse">Explore Features</a>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <div class="container">
+      <h3 class="section-title fade-in">Features</h3>
+      <div class="grid">
+        <div class="card fade-up">
+          <h4>Motivation</h4>
+          <p>Motivate to become the new you</p>
+        </div>
+        <div class="card fade-up delay-1">
+          <h4>Mindset</h4>
+          <p>Give you a positive mindset</p>
+        </div>
+        <div class="card fade-up delay-2">
+          <h4>Growth</h4>
+          <p>Grow yourself in every front of life</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact fade-in">
+    <div class="container">
+      <h3 class="section-title">Contact</h3>
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer fade-in">
+    <div class="container">
+      <p>&copy; 2025 The New You. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
