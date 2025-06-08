@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="tiktok-developers-site-verification" content="fMT2fmyQemp32m0RNTUCeX4WuVRqsKcT" />
-  <meta name="tiktok-developers-site-verification" content="Y4ntORQbBr06M8GE8G44nyy1kqN2iCRj" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="tiktok-developers-site-verification" content="fMT2fmyQemp32m0RNTUCeX4WuVRqsKcT" />
+  <meta name="tiktok-developers-site-verification" content="Y4ntORQbBr06M8GE8G44nyy1kqN2iCRj" />
   <title>The New You</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
@@ -28,10 +28,11 @@
   </header>
 
   <section class="hero fade-in">
+  <div class="cube-background"></div> <!-- 3D Animation container -->
     <div class="container">
-      <h2><span id="typed-text"></span><span class="cursor">|</span></h2>
-      <p class="hero-sub">Motivation | Mindset | Growth</p>
-      <a href="#features" class="btn pulse">Explore Features</a>
+       <h2><span id="typed-text"></span><span class="cursor">|</span></h2>
+       <p class="hero-sub">Motivation | Mindset | Growth</p>
+       <a href="#features" class="btn pulse">Explore Features</a>
     </div>
   </section>
 
@@ -69,16 +70,19 @@
   </section>
 
   <footer class="footer fade-in">
-  <div class="container">
-    <p>&copy; 2025 The New You. All rights reserved.</p>
-    <div class="legal-links">
-      <a href="documentation/Terms and Conditions for The-New-You.pdf" target="_blank" rel="noopener noreferrer">Terms & Conditions</a>
-      <span> | </span>
-      <a href="documentation/Privacy Policy for The-New-You.pdf" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+    <div class="container">
+      <p>&copy; 2025 The New You. All rights reserved.</p>
+      <div class="legal-links">
+        <a href="documentation/Terms and Conditions for The-New-You.pdf" target="_blank" rel="noopener noreferrer">Terms & Conditions</a>
+        <span> | </span>
+        <a href="documentation/Privacy Policy for The-New-You.pdf" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
+  <!-- Anime.js and Three.js -->
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.148.0/three.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
