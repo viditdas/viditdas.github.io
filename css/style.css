@@ -160,6 +160,22 @@ section {
   color: #888;
 }
 
+.footer .legal-links {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.footer .legal-links a {
+  color: #64748b;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  transition: color 0.3s;
+}
+
+.footer .legal-links a:hover {
+  color: #3b82f6;
+}
+
 /* Fade Animations */
 .fade-in, .fade-up {
   opacity: 0;
